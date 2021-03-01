@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
             <div className="middle">
               <div className="content">
                 <h1 className="h1">COMING SOON</h1>
-                <Timer />
+                <Timer  date="10/03/2021" time="19.00" />
                 <p>We will be launch soon, enter your email address and get our early notification.</p>
                 <input name="email" type="text" placeholder="email address" />
                 <button className="button">Submit</button>
